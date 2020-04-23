@@ -13,6 +13,8 @@ phases:
   install:
     commands:
 
+      - pwd 
+
       - ls 
 
       - cd "${CODEBUILD_SRC_DIR}"
