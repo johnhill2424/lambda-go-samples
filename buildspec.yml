@@ -6,7 +6,7 @@ env:
     # Make sure to provide a valid S3 bucket name (it must exist already).
     # The AWS CodeBuild IAM role must allow write access to it.
     S3_BUCKET: "humanex-bucket-pipeline-test"
-    PACKAGE: "hello-world"
+    PACKAGE: "github.com/aws-samples/lambda-go-samples"
 
 phases:
 
