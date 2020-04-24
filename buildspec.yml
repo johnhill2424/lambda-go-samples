@@ -13,14 +13,6 @@ phases:
   install:
     commands:
 
-      - pwd 
-
-      - ls 
-
-      - cd "${CODEBUILD_SRC_DIR}"
-
-      - ls 
-
       # AWS Codebuild Go images use /go for the $GOPATH so let's copy our 
       # application source code into that directory structure.
       - mkdir -p "/go/src/$(dirname ${PACKAGE})"
